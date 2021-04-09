@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Quicksand:wght@300&family=Source+Code+Pro:wght@200&display=swap');
+
+$font-1: 'Nanum Gothic', sans-serif ;
+$font-2: 'Quicksand', sans-serif;
+$font-3: 'Source Code Pro', monospace;
+
+$color-1:  #ec750d;
+$color-2:  #a9afaf;
+$color-3:  #34495e;
+$white: #ddd;
+$black: #333;
+
+$borderRadius : 25px;
+$shadow: 0 1px 3px #333;
+$min-height: 90vh;
+
+@mixin  verticalCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+html{
+    background-color: #333;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 1rem auto;
+
+    max-width: 1200px;
+    font-family: $font-1;
+    color: $black;
+}
+
+button{
+    cursor: pointer;
+}
+
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: $black;
+    cursor: pointer;
+}
+
+
+.home, .knowledges, .portfolio, .contact{
+    display: flex;
+
+    @media screen and (max-width: 805px) { 
+        display: block;
+     }
+}
+
+.homeContent, .knowledgesContent, .portfolioContent, .contactContent{
+    display: flex;
+
+    @media screen and (max-width: 805px) { 
+        margin-left: 0 ;
+     }
+}
+
+a:visited{
+    color: $black;
+}
