@@ -5,15 +5,14 @@ $font-1: 'Nanum Gothic', sans-serif ;
 $font-2: 'Quicksand', sans-serif;
 $font-3: 'Source Code Pro', monospace;
 
-$color-1:  #ec750d;
+$color-1:  #e7a163;
 $color-2:  #a9afaf;
 $color-3:  #34495e;
 $white: #ddd;
 $black: #333;
 
-$borderRadius : 25px;
+
 $shadow: 0 1px 3px #333;
-$min-height: 90vh;
 
 @mixin  verticalCenter {
     display: flex;
@@ -21,6 +20,7 @@ $min-height: 90vh;
     align-items: center;
 }
 html{
+    height: 100vh;
     background-color: #333;
 }
 *{
@@ -30,11 +30,12 @@ html{
 }
 
 body{
-    margin: 1rem auto;
-
-    max-width: 1200px;
+    
+    position: relative;
+    margin: 1rem auto;   
     font-family: $font-1;
-    color: $black;
+    color: $color-3;    
+    
 }
 
 button{
@@ -46,7 +47,7 @@ li{
 }
 a{
     text-decoration: none;
-    color: $black;
+    color: $color-3;
     cursor: pointer;
 }
 

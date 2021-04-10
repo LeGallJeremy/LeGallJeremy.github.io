@@ -7,7 +7,7 @@ const Navigation = () => {
         <div className="sidebar">
             <div className="id">
                 <div className="idContent">
-                    <img src="./media/photo.jpg" alt="profil-pict"/>
+                    <img src="./media/photo.jpg" alt="profil-pict" />
                     <h3>Le Gall Jérémy</h3>
                 </div>
             </div>
@@ -15,28 +15,28 @@ const Navigation = () => {
             <div className="navigation">
                 <ul>
                     <li>
-                    <NavLink exact to="/" activeClassName="navActive">
-                        <i className="fas fa-home"></i>
-                        <span>Acceuil</span>
-                    </NavLink>
+                        <NavLink exact to="/" activeClassName="navActive">
+                            <i className="fas fa-home"></i>
+                            <span>Acceuil</span>
+                        </NavLink>
                     </li>
                     <li>
-                    <NavLink exact to="/competence" activeClassName="navActive">
-                        <i className="fas fa-mountain"></i>
-                        <span>Compétence</span>
-                    </NavLink>
+                        <NavLink exact to="/competence" activeClassName="navActive">
+                            <i className="fas fa-mountain"></i>
+                            <span>Compétence</span>
+                        </NavLink>
                     </li>
                     <li>
-                    <NavLink exact to="/portfolio" activeClassName="navActive">
-                        <i className="fas fa-images"></i>
-                        <span>Portfolio</span>
-                    </NavLink>
+                        <NavLink exact to="/portfolio" activeClassName="navActive">
+                            <i className="fas fa-images"></i>
+                            <span>Portfolio</span>
+                        </NavLink>
                     </li>
                     <li>
-                    <NavLink exact to="/contact" activeClassName="navActive">
-                        <i className="fas fa-address-book"></i>
-                        <span>Contact</span>
-                    </NavLink>
+                        <NavLink exact to="/contact" activeClassName="navActive">
+                            <i className="fas fa-address-book"></i>
+                            <span>Contact</span>
+                        </NavLink>
                     </li>
                 </ul>
             </div>
