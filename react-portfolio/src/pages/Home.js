@@ -6,11 +6,14 @@ const Home = () => {
         <div className="home">
             <Navigation />
             <div className="homeContent">
-                <h1>Le Gall Jérémy</h1>
-                <h2>Développeur full stack :</h2>
-                    <div className="pdf">
-                        <a href="./media/CV.pdf" target="_blank"> Télécharger le CV en .pdf</a>
-                    </div>
+                <div className="homeTranslate">
+                    <h1>Bonjour! Je m'appelle Jérémy</h1>
+                    <h2>Je suis développeur full stack.</h2>
+                    <h3></h3>
+                        <div className="pdf">
+                            <a href="./media/CV.pdf" target="_blank"> Télécharger le CV en .pdf</a>
+                        </div>
+                </div>
             </div>
         </div>
     );

@@ -6,8 +6,8 @@ $font-2: 'Quicksand', sans-serif;
 $font-3: 'Source Code Pro', monospace;
 
 $color-1:  #e7a163;
-$color-2:  #a9afaf;
-$color-3:  #34495e;
+$color-2:  #c6d1d1;
+$color-3:  #232629;
 $white: #ddd;
 $black: #333;
 
@@ -21,7 +21,8 @@ $shadow: 0 1px 3px #333;
 }
 html{
     height: 100vh;
-    background-color: #333;
+    background-color: rgb(26, 25, 25);
+    overflow: hidden;
 }
 *{
     box-sizing: border-box;
@@ -32,10 +33,9 @@ html{
 body{
     
     position: relative;
-    margin: 1rem auto;   
+    margin: 1rem;   
     font-family: $font-1;
-    color: $color-3;    
-    
+    color: $color-2;    
 }
 
 button{
@@ -47,7 +47,7 @@ li{
 }
 a{
     text-decoration: none;
-    color: $color-3;
+    color: $color-2;
     cursor: pointer;
 }
 

@@ -1,0 +1,82 @@
+.languagesFrameworks{
+    background: $color-3;
+    font-family: $font-1;
+    width: 20vw;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem ;   
+    
+    h1{
+        font-size: 1.3rem;
+        padding: 1rem;
+    }
+    h2{
+        font-size: 1rem;
+        padding: 0 2rem;
+    }
+    ul{
+        padding: .5rem 3rem 0.5rem ;
+    }
+    li{
+        font-size: 1rem;
+        padding: 0.3rem;
+    }
+}
+
+.experienceContent{
+    background: $color-3;
+    font-family: $font-1;
+    width: 33vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 ;   
+    
+    h1{
+        font-size: 1.3rem;
+        padding: 1rem;
+    }
+    h2{
+        font-size: 1rem;
+        padding: 0 2rem;
+    }
+    h3{
+        font-size: 1rem;
+        font-style: italic;
+        padding: 0 3rem;
+    }
+    ul{
+        padding: .5rem 4rem;
+    }
+    li{
+        font-size: 1rem;
+        padding: 0.3rem;
+    }
+}
+
+.softskills{
+    background: $color-3;
+    font-family: $font-1;
+    width: 20vw;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;   
+    
+    h1{
+        font-size: 1.3rem;
+        padding: 1rem;
+    }
+    h2{
+        font-size: 1rem;
+        padding: 0 2rem;
+    }
+    ul{
+        padding: .5rem 3rem;
+    }
+    li{
+        font-size: 1rem;
+        padding: 0.3rem;
+    }
+}

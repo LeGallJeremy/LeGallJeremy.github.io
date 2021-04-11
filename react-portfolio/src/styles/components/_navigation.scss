@@ -1,5 +1,5 @@
 .sidebar {
-    background: $color-2;
+    background: $color-3;
     font-family: $font-1;
     width: 20vw;
     height: 100%;
@@ -35,7 +35,7 @@
                 text-transform: uppercase;
                 letter-spacing: 0.2rem;
                 margin-top: 1.5rem;
-                color: $color-3;
+                color: $color-2;
             }
         }
     }
@@ -58,11 +58,11 @@
                 }
 
                 a {
-                    color: $color-3;
+                    color: $color-2;
                 }
 
                 .navActive {
-                    color: $color-3;
+                    color: $color-2;
                 }
 
                 i {
@@ -97,7 +97,7 @@
                 cursor: pointer;
 
                 a {
-
+                    color: $color-2;
                     &:hover {
                         color: $color-1;
                     }
